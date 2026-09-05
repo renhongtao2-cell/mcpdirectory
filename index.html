@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MCP Servers Directory — Find the right Model Context Protocol server</title>
+<meta name="description" content="A curated directory of Model Context Protocol (MCP) servers. Browse by category, compare capabilities, and connect AI assistants like Claude and ChatGPT to real-world tools.">
+<meta name="keywords" content="MCP, Model Context Protocol, MCP servers directory, Claude MCP, AI tools, AI agents, function calling">
+<link rel="canonical" href="https://renhongtao2-cell.github.io/mcpdirectory/">
+<style>
+  :root{--bg:#0f1420;--panel:#171e2e;--panel2:#1e2740;--line:#2a3550;--text:#e8edf5;--dim:#8a97ad;--cyan:#4cc9f0;--cyan-d:#173c4d;--green:#57d977;--amber:#ffb454;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.55}
+  header{padding:22px 26px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .logo{width:36px;height:36px;border-radius:9px;background:conic-gradient(from 90deg,#4cc9f0,#7b61ff,#4cc9f0)}
+  header h1{font-size:19px}
+  header p{font-size:12px;color:var(--dim)}
+  .cta{margin-left:auto;display:flex;gap:10px}
+  .btn{border:none;border-radius:10px;padding:10px 16px;font-weight:700;font-size:13.5px;cursor:pointer;text-decoration:none;display:inline-block}
+  .btn-c{background:var(--cyan);color:#06222b}
+  .btn-g{background:var(--panel);color:var(--text);border:1px solid var(--line)}
+  main{max-width:1150px;margin:0 auto;padding:22px 20px 60px;display:grid;grid-template-columns:210px 1fr;gap:20px}
+  @media(max-width:860px){main{grid-template-columns:1fr}}
+  .side{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px;height:fit-content;position:sticky;top:16px}
+  .side h2{font-size:11.5px;text-transform:uppercase;color:var(--dim);letter-spacing:.8px;margin-bottom:8px}
+  .cat{display:block;width:100%;text-align:left;background:transparent;border:none;color:var(--dim);padding:8px 10px;border-radius:8px;font-size:13.5px;cursor:pointer}
+  .cat:hover{background:var(--panel2);color:var(--text)}
+  .cat.active{background:var(--cyan-d);color:var(--cyan);font-weight:700}
+  .cat span{float:right;font-size:11px}
+  .search{width:100%;background:var(--panel2);border:1px solid var(--line);color:var(--text);border-radius:10px;padding:11px 14px;font-size:14px;outline:none;margin-bottom:14px}
+  .search:focus{border-color:var(--cyan)}
+  #grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px}
+  .card h3{font-size:15px;display:flex;justify-content:space-between;gap:8px}
+  .card h3 em{font-style:normal;font-size:11px;color:var(--cyan);border:1px solid #4cc9f044;background:#4cc9f01a;padding:2px 8px;border-radius:999px;white-space:nowrap}
+  .card p{font-size:13px;color:var(--dim);flex:1}
+  .card .tags{display:flex;flex-wrap:wrap;gap:6px}
+  .chip{font-size:10.5px;padding:2px 8px;border-radius:999px;background:var(--panel2);border:1px solid var(--line);color:var(--dim)}
+  .card a{color:var(--cyan);font-size:12.5px;text-decoration:none;font-weight:600}
+  .empty{grid-column:1/-1;text-align:center;color:var(--dim);padding:40px}
+  .banner{background:linear-gradient(120deg,#173c4d,#231a4d);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:16px}
+  .banner b{color:var(--cyan)}
+  .banner p{font-size:13.5px;color:var(--text)}
+  footer{border-top:1px solid var(--line);text-align:center;color:var(--dim);font-size:12.5px;padding:24px}
+  footer a{color:var(--cyan)}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo"></div>
+  <div><h1>MCP Servers Directory</h1><p>The curated catalog of Model Context Protocol servers</p></div>
+  <div class="cta"><a class="btn btn-g" href="#submit">Submit a server</a><a class="btn btn-c" href="#featured">Featured</a></div>
+</header>
+
+<main>
+  <aside class="side">
+    <h2>Categories</h2>
+    <div id="cats"></div>
+  </aside>
+  <section>
+    <div class="banner" id="featured">
+      <p><b>What is MCP?</b> The Model Context Protocol is the open standard that lets AI assistants (Claude, ChatGPT, Gemini, Cursor…) securely connect to external tools and data. This directory catalogs the servers that make those connections possible — browse by category, or <a href="#submit" style="color:var(--cyan)">submit your own</a>.</p>
+    </div>
+    <input class="search" id="q" placeholder="Search 30+ MCP servers — e.g. github, database, browser…">
+    <div id="grid"></div>
+    <div class="banner" id="submit" style="margin-top:20px">
+      <p><b>Submit your MCP server</b> — listing is free during launch. Open a GitHub issue with your server name, one-line description, category and repository link: <a class="btn btn-c" style="padding:6px 12px;font-size:12px" href="https://github.com/renhongtao2-cell/mcpdirectory/issues/new?title=Server+Submission" target="_blank">Open submission issue</a></p>
+      <p style="margin-top:8px;color:var(--dim);font-size:12.5px">Featured placements (top of category) will open for sponsorship soon.</p>
+    </div>
+  </section>
+</main>
+
+<footer>MCP Servers Directory — an independent catalog. MCP is an open standard; trademarks belong to their owners.<br>Submit corrections via the GitHub link above.</footer>
+
+<script>
+const CATS = ["All","Developer Tools","Productivity","Data & Databases","Web & Search","Communication","E-commerce & Finance","AI & Agents","Files & Docs"];
+const S = [
+  ["Filesystem Server","Give AI assistants safe, scoped access to local files and directories — read, write and organize with permission controls.","Developer Tools","files,local,disk","modelcontextprotocol/servers"],
+  ["GitHub Server","Let AI assistants manage repositories, issues, pull requests, files and code search on GitHub.","Developer Tools","github,git,code","modelcontextprotocol/servers"],
+  ["GitLab Server","GitLab API integration for project management, merge requests and CI pipelines via AI assistants.","Developer Tools","gitlab,ci,devops","modelcontextprotocol/servers"],
+  ["Sentry Server","Fetch and analyze error reports from Sentry — let your AI assistant debug production issues with you.","Developer Tools","monitoring,errors","modelcontextprotocol/servers"],
+  ["Puppeteer Server","Browser automation for AI assistants: navigate, screenshot and interact with web pages.","Web & Search","browser,automation,scraping","modelcontextprotocol/servers"],
+  ["Fetch Server","Fetch and convert web content to a format optimized for LLM consumption.","Web & Search","web,fetch,html","modelcontextprotocol/servers"],
+  ["Brave Search Server","Web and local search powered by the Brave Search API — fresh results inside AI conversations.","Web & Search","search,brave,web","modelcontextprotocol/servers"],
+  ["Exa Search Server","AI-native semantic search over the web — find pages by meaning, not just keywords.","Web & Search","search,semantic,exa","exa-labs/exa-mcp-server"],
+  ["Firecrawl Server","Turn entire websites into clean, LLM-ready markdown — crawl, scrape and structure the web.","Web & Search","crawling,markdown,scraping","mendableai/firecrawl-mcp-server"],
+  ["PostgreSQL Server","Read-only database access with schema inspection for Postgres — safe data exploration by AI.","Data & Databases","postgres,sql,database","modelcontextprotocol/servers"],
+  ["SQLite Server","Query, analyze and modify SQLite databases with built-in business intelligence prompts.","Data & Databases","sqlite,sql,bi","modelcontextprotocol/servers"],
+  ["Supabase Server","Manage Supabase projects: query tables, manage auth and storage through AI conversations.","Data & Databases","supabase,postgres,baas","supabase-community/supabase-mcp"],
+  ["Memory Server","Persistent knowledge-graph memory for AI assistants — remember entities, facts and relations across sessions.","AI & Agents","memory,knowledge-graph","modelcontextprotocol/servers"],
+  ["Sequential Thinking Server","Structured, reflective step-by-step reasoning scaffold for complex problem decomposition.","AI & Agents","reasoning,planning","modelcontextprotocol/servers"],
+  ["EverArt Server","Generate images inside AI conversations using EverArt's models — from prompt to artwork.","AI & Agents","image-generation,art","modelcontextprotocol/servers"],
+  ["Slack Server","Channel management, messaging and history access for team communication inside AI chats.","Communication","slack,messaging,team","modelcontextprotocol/servers"],
+  ["Google Drive Server","Search, list and read files from Google Drive — your docs become AI-accessible context.","Files & Docs","google-drive,docs,cloud","modelcontextprotocol/servers"],
+  ["Google Maps Server","Location search, directions and place details from Google Maps inside AI chats.","Web & Search","maps,location,travel","modelcontextprotocol/servers"],
+  ["Notion Server","Read and manage Notion pages and databases — turn your workspace into AI context.","Productivity","notion,wiki,workspace","modelcontextprotocol/servers"],
+  ["Linear Server","Issue tracking and project management for Linear via AI assistants.","Productivity","linear,issues,projects","modelcontextprotocol/servers"],
+  ["Jira & Confluence Server","Search and manage Jira issues and Confluence documentation with AI assistance.","Productivity","jira,confluence,atlassian","modelcontextprotocol/servers"],
+  ["Microsoft 365 Server","Outlook mail, calendar and OneDrive files as context for your AI assistant.","Productivity","microsoft,outlook,calendar","modelcontextprotocol/servers"],
+  ["Cloudflare Server","Deploy and manage Cloudflare Workers, KV, R2 and D1 from natural language.","Developer Tools","cloudflare,edge,deploy","cloudflare/mcp-server-cloudflare"],
+  ["Vercel Server","Manage Vercel deployments, projects and DNS records through AI conversations.","Developer Tools","vercel,deploy,hosting","modelcontextprotocol/servers"],
+  ["Stripe Server","Payments intelligence: create payment links, list invoices and inspect Stripe data safely.","E-commerce & Finance","stripe,payments,billing","stripe/agent-toolkit"],
+  ["Shopify Server","Storefront and admin operations for Shopify stores — products, orders and customers.","E-commerce & Finance","shopify,ecommerce,orders","shopify/dev-mcp"],
+  ["PayPal Server","Payment and transaction operations via PayPal's API, exposed to AI assistants.","E-commerce & Finance","paypal,payments,finance","paypal/paypal-mcp-server"],
+  ["Bank of Anthos Server","Banking data exploration demo — account balances and transactions as AI context.","E-commerce & Finance","banking,transactions","modelcontextprotocol/servers"],
+  ["Obsidian Server","Read and search your Obsidian vault — personal notes become an AI knowledge base.","Files & Docs","obsidian,notes,pkm","modelcontextprotocol/servers"],
+  ["Filesystem (Windows) Server","Windows-optimized file operations for AI assistants in enterprise environments.","Files & Docs","windows,files,enterprise","modelcontextprotocol/servers"]
+];
+let active = "All", q = "";
+const grid = document.getElementById("grid"), catsEl = document.getElementById("cats");
+function counts(cat){ return cat==="All" ? S.length : S.filter(s=>s[2]===cat).length; }
+function renderCats(){
+  catsEl.innerHTML = CATS.map(c=>`<button class="cat ${c===active?"active":""}" data-c="${c}">${c}<span>${counts(c)}</span></button>`).join("");
+}
+function renderGrid(){
+  const ql = q.toLowerCase();
+  const list = S.filter(s=>(active==="All"||s[2]===active)&&(!ql||(s[0]+" "+s[1]+" "+s[3]).toLowerCase().includes(ql)));
+  grid.innerHTML = list.length ? list.map(s=>`
+    <article class="card">
+      <h3>${s[0]} <em>${s[2]}</em></h3>
+      <p>${s[1]}</p>
+      <div class="tags">${s[3].split(",").map(t=>`<span class="chip">${t.trim()}</span>`).join("")}</div>
+      <a href="https://github.com/search?q=${encodeURIComponent(s[0].toLowerCase()+" mcp server")}&type=repositories" target="_blank" rel="noopener">Find on GitHub →</a>
+    </article>`).join("") : `<div class="empty">No servers match your search. Try another keyword, or submit yours below.</div>`;
+}
+catsEl.addEventListener("click",e=>{ const b=e.target.closest(".cat"); if(!b) return; active=b.dataset.c; renderCats(); renderGrid(); });
+document.getElementById("q").addEventListener("input",e=>{ q=e.target.value; renderGrid(); });
+renderCats(); renderGrid();
+</script>
+</body>
+</html>
