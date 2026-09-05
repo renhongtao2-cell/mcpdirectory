@@ -1,0 +1,42 @@
+# MCP Servers Directory
+
+> A hand-curated catalog of Model Context Protocol (MCP) servers: what each server does, its category and its GitHub repository. Built to help developers and AI assistants find the right MCP server. Updated weekly. 30+ servers across 8 categories.
+
+## Pages
+
+- [MCP Servers Directory](https://mcp.toolboxes.top/): browse and search all MCP servers by category
+- [About](https://mcp.toolboxes.top/about.html): curation policy and submission process
+- [Privacy Policy](https://mcp.toolboxes.top/privacy.html)
+
+## MCP servers
+
+- [Filesystem Server](https://mcp.toolboxes.top/servers/filesystem.html): Give AI assistants safe, scoped access to local files and directories — read, write and organize with permission controls.
+- [GitHub Server](https://mcp.toolboxes.top/servers/github.html): Let AI assistants manage repositories, issues, pull requests, files and code search on GitHub.
+- [GitLab Server](https://mcp.toolboxes.top/servers/gitlab.html): GitLab API integration for project management, merge requests and CI pipelines via AI assistants.
+- [Sentry Server](https://mcp.toolboxes.top/servers/sentry.html): Fetch and analyze error reports from Sentry — let your AI assistant debug production issues with you.
+- [Puppeteer Server](https://mcp.toolboxes.top/servers/puppeteer.html): Browser automation for AI assistants: navigate, screenshot and interact with web pages.
+- [Fetch Server](https://mcp.toolboxes.top/servers/fetch.html): Fetch and convert web content to a format optimized for LLM consumption.
+- [Brave Search Server](https://mcp.toolboxes.top/servers/brave-search.html): Web and local search powered by the Brave Search API — fresh results inside AI conversations.
+- [Exa Search Server](https://mcp.toolboxes.top/servers/exa-search.html): AI-native semantic search over the web — find pages by meaning, not just keywords.
+- [Firecrawl Server](https://mcp.toolboxes.top/servers/firecrawl.html): Turn entire websites into clean, LLM-ready markdown — crawl, scrape and structure the web.
+- [PostgreSQL Server](https://mcp.toolboxes.top/servers/postgresql.html): Read-only database access with schema inspection for Postgres — safe data exploration by AI.
+- [SQLite Server](https://mcp.toolboxes.top/servers/sqlite.html): Query, analyze and modify SQLite databases with built-in business intelligence prompts.
+- [Supabase Server](https://mcp.toolboxes.top/servers/supabase.html): Manage Supabase projects: query tables, manage auth and storage through AI conversations.
+- [Memory Server](https://mcp.toolboxes.top/servers/memory.html): Persistent knowledge-graph memory for AI assistants — remember entities, facts and relations across sessions.
+- [Sequential Thinking Server](https://mcp.toolboxes.top/servers/sequential-thinking.html): Structured, reflective step-by-step reasoning scaffold for complex problem decomposition.
+- [EverArt Server](https://mcp.toolboxes.top/servers/everart.html): Generate images inside AI conversations using EverArt's models — from prompt to artwork.
+- [Slack Server](https://mcp.toolboxes.top/servers/slack.html): Channel management, messaging and history access for team communication inside AI chats.
+- [Google Drive Server](https://mcp.toolboxes.top/servers/google-drive.html): Search, list and read files from Google Drive — your docs become AI-accessible context.
+- [Google Maps Server](https://mcp.toolboxes.top/servers/google-maps.html): Location search, directions and place details from Google Maps inside AI chats.
+- [Notion Server](https://mcp.toolboxes.top/servers/notion.html): Read and manage Notion pages and databases — turn your workspace into AI context.
+- [Linear Server](https://mcp.toolboxes.top/servers/linear.html): Issue tracking and project management for Linear via AI assistants.
+- [Jira & Confluence Server](https://mcp.toolboxes.top/servers/jira-confluence.html): Search and manage Jira issues and Confluence documentation with AI assistance.
+- [Microsoft 365 Server](https://mcp.toolboxes.top/servers/microsoft-365.html): Outlook mail, calendar and OneDrive files as context for your AI assistant.
+- [Cloudflare Server](https://mcp.toolboxes.top/servers/cloudflare.html): Deploy and manage Cloudflare Workers, KV, R2 and D1 from natural language.
+- [Vercel Server](https://mcp.toolboxes.top/servers/vercel.html): Manage Vercel deployments, projects and DNS records through AI conversations.
+- [Stripe Server](https://mcp.toolboxes.top/servers/stripe.html): Payments intelligence: create payment links, list invoices and inspect Stripe data safely.
+- [Shopify Server](https://mcp.toolboxes.top/servers/shopify.html): Storefront and admin operations for Shopify stores — products, orders and customers.
+- [PayPal Server](https://mcp.toolboxes.top/servers/paypal.html): Payment and transaction operations via PayPal's API, exposed to AI assistants.
+- [Bank of Anthos Server](https://mcp.toolboxes.top/servers/bank-of-anthos.html): Banking data exploration demo — account balances and transactions as AI context.
+- [Obsidian Server](https://mcp.toolboxes.top/servers/obsidian.html): Read and search your Obsidian vault — personal notes become an AI knowledge base.
+- [Filesystem (Windows) Server](https://mcp.toolboxes.top/servers/filesystem-windows.html): Windows-optimized file operations for AI assistants in enterprise environments.

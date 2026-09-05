@@ -1,4 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://mcp.toolboxes.top/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://mcp.toolboxes.top/</loc><lastmod>2026-09-06</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/filesystem.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/github.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/gitlab.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/sentry.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/puppeteer.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/fetch.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/brave-search.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/exa-search.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/firecrawl.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/postgresql.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/sqlite.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/supabase.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/memory.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/sequential-thinking.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/everart.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/slack.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/google-drive.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/google-maps.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/notion.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/linear.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/jira-confluence.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/microsoft-365.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/cloudflare.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/vercel.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/stripe.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/shopify.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/paypal.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/bank-of-anthos.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/obsidian.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/servers/filesystem-windows.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcp.toolboxes.top/about.html</loc><lastmod>2026-09-06</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://mcp.toolboxes.top/privacy.html</loc><lastmod>2026-09-06</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
 </urlset>
