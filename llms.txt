@@ -1,6 +1,6 @@
 # MCP Servers Directory
 
-> A hand-curated catalog of Model Context Protocol (MCP) servers: what each server does, its category and its GitHub repository. Built to help developers and AI assistants find the right MCP server. Updated weekly. 30+ servers across 8 categories.
+> A hand-curated catalog of Model Context Protocol (MCP) servers: what each server does, its category and its GitHub repository. Built to help developers and AI assistants find the right MCP server. Updated weekly. 35+ servers across 8 categories.
 
 ## Pages
 
@@ -40,3 +40,8 @@
 - [Bank of Anthos Server](https://mcp.toolboxes.top/servers/bank-of-anthos.html): Banking data exploration demo — account balances and transactions as AI context.
 - [Obsidian Server](https://mcp.toolboxes.top/servers/obsidian.html): Read and search your Obsidian vault — personal notes become an AI knowledge base.
 - [Filesystem (Windows) Server](https://mcp.toolboxes.top/servers/filesystem-windows.html): Windows-optimized file operations for AI assistants in enterprise environments.
+- [Context7 Server](https://mcp.toolboxes.top/servers/context7.html): Pull version-specific, up-to-date documentation for any library into your AI assistant so it stops hallucinating outdated APIs.
+- [Playwright Server](https://mcp.toolboxes.top/servers/playwright.html): Microsoft's browser automation server — drive Chromium, Firefox and WebKit through fast accessibility-tree snapshots.
+- [Chrome DevTools Server](https://mcp.toolboxes.top/servers/chrome-devtools.html): Hand AI agents real Chrome DevTools: network inspection, DOM debugging, performance traces and console access.
+- [n8n Server](https://mcp.toolboxes.top/servers/n8n.html): Build, inspect and trigger n8n automation workflows from natural language inside AI conversations.
+- [MarkItDown Server](https://mcp.toolboxes.top/servers/markitdown.html): Microsoft's converter turns PDF, PowerPoint, Word, Excel and audio into clean Markdown your LLM can actually read.

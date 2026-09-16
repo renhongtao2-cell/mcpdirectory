@@ -29,7 +29,12 @@ const S = [
   ["PayPal Server","Payment and transaction operations via PayPal's API, exposed to AI assistants.","E-commerce & Finance","paypal,payments,finance","paypal/paypal-mcp-server"],
   ["Bank of Anthos Server","Banking data exploration demo — account balances and transactions as AI context.","E-commerce & Finance","banking,transactions","modelcontextprotocol/servers"],
   ["Obsidian Server","Read and search your Obsidian vault — personal notes become an AI knowledge base.","Files & Docs","obsidian,notes,pkm","modelcontextprotocol/servers"],
-  ["Filesystem (Windows) Server","Windows-optimized file operations for AI assistants in enterprise environments.","Files & Docs","windows,files,enterprise","modelcontextprotocol/servers"]
+  ["Filesystem (Windows) Server","Windows-optimized file operations for AI assistants in enterprise environments.","Files & Docs","windows,files,enterprise","modelcontextprotocol/servers"],
+  ["Context7 Server","Pull version-specific, up-to-date documentation for any library into your AI assistant so it stops hallucinating outdated APIs.","Developer Tools","docs,context,api","upstash/context7"],
+  ["Playwright Server","Microsoft's browser automation server — drive Chromium, Firefox and WebKit through fast accessibility-tree snapshots.","Developer Tools","playwright,browser,testing","microsoft/playwright-mcp"],
+  ["Chrome DevTools Server","Hand AI agents real Chrome DevTools: network inspection, DOM debugging, performance traces and console access.","Developer Tools","chrome,devtools,debugging","ChromeDevTools/chrome-devtools-mcp"],
+  ["n8n Server","Build, inspect and trigger n8n automation workflows from natural language inside AI conversations.","Productivity","n8n,automation,workflow","czlonkowski/n8n-mcp"],
+  ["MarkItDown Server","Microsoft's converter turns PDF, PowerPoint, Word, Excel and audio into clean Markdown your LLM can actually read.","Files & Docs","markdown,pdf,converter","microsoft/markitdown"]
 ];
 const slugify = n => n.replace(/server/ig,"").replace(/&/g,"").replace(/[()]/g," ").trim().toLowerCase().replace(/\s+/g,"-");
 let active = "All", q = "";
