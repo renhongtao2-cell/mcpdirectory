@@ -48,7 +48,7 @@
       "@type": "ItemList",
       "@id": "https://mcp.toolboxes.top/#servers",
       "name": "MCP Servers",
-      "numberOfItems": 35,
+      "numberOfItems": 38,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -434,6 +434,39 @@
             "applicationCategory": "Files & Docs",
             "url": "https://mcp.toolboxes.top/servers/markitdown.html"
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 36,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Browser Use Server",
+            "description": "Autonomous browser agent that lets AI click, type and complete multi-step web tasks end-to-end — the most popular open browser-use MCP.",
+            "applicationCategory": "Developer Tools",
+            "url": "https://mcp.toolboxes.top/servers/browser-use.html"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 37,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "GitHub Official MCP Server",
+            "description": "GitHub's official Model Context Protocol server — repositories, issues, pull requests, code search and more, straight from the platform.",
+            "applicationCategory": "Developer Tools",
+            "url": "https://mcp.toolboxes.top/servers/github-official-mcp.html"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 38,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Stagehand Server",
+            "description": "Browserbase's AI-powered browser automation layer — natural-language web actions with built-in self-healing locators.",
+            "applicationCategory": "Developer Tools",
+            "url": "https://mcp.toolboxes.top/servers/stagehand.html"
+          }
         }
       ]
     },
@@ -478,7 +511,7 @@
           "name": "How many MCP servers are listed here?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The directory currently curates 35+ open-source MCP servers across 8 categories — developer tools, productivity, data, web search, communication, finance, AI/agents and files — and new servers are added every week."
+            "text": "The directory currently curates 38+ open-source MCP servers across 8 categories — developer tools, productivity, data, web search, communication, finance, AI/agents and files — and new servers are added every week."
           }
         },
         {
@@ -588,13 +621,13 @@
 <main>
   <aside class="side">
     <h2>Categories</h2>
-    <div id="cats"><button class="cat active " data-c="All">All<span>35</span></button><button class="cat " data-c="Developer Tools">Developer Tools<span>9</span></button><button class="cat " data-c="Productivity">Productivity<span>5</span></button><button class="cat " data-c="Data &amp; Databases">Data &amp; Databases<span>3</span></button><button class="cat " data-c="Web &amp; Search">Web &amp; Search<span>6</span></button><button class="cat " data-c="Communication">Communication<span>1</span></button><button class="cat " data-c="E-commerce &amp; Finance">E-commerce &amp; Finance<span>4</span></button><button class="cat " data-c="AI &amp; Agents">AI &amp; Agents<span>3</span></button><button class="cat " data-c="Files &amp; Docs">Files &amp; Docs<span>4</span></button></div>
+    <div id="cats"><button class="cat active " data-c="All">All<span>38</span></button><button class="cat " data-c="Developer Tools">Developer Tools<span>12</span></button><button class="cat " data-c="Productivity">Productivity<span>5</span></button><button class="cat " data-c="Data &amp; Databases">Data &amp; Databases<span>3</span></button><button class="cat " data-c="Web &amp; Search">Web &amp; Search<span>6</span></button><button class="cat " data-c="Communication">Communication<span>1</span></button><button class="cat " data-c="E-commerce &amp; Finance">E-commerce &amp; Finance<span>4</span></button><button class="cat " data-c="AI &amp; Agents">AI &amp; Agents<span>3</span></button><button class="cat " data-c="Files &amp; Docs">Files &amp; Docs<span>4</span></button></div>
   </aside>
   <section>
     <div class="banner" id="featured">
       <p><b>What is MCP?</b> The Model Context Protocol is the open standard that lets AI assistants (Claude, ChatGPT, Gemini, Cursor…) securely connect to external tools and data. This directory catalogs the servers that make those connections possible — browse by category, or <a href="#submit" style="color:var(--cyan)">submit your own</a>.</p>
     </div>
-    <input class="search" id="q" type="search" aria-label="Search MCP servers" placeholder="Search 35+ MCP servers — e.g. github, database, browser…">
+    <input class="search" id="q" type="search" aria-label="Search MCP servers" placeholder="Search 38+ MCP servers — e.g. github, database, browser…">
     <div id="grid">
     <article class="card">
       <h3><a href="servers/filesystem.html">Filesystem Server</a> <em>Developer Tools</em></h3>
@@ -806,6 +839,24 @@
       <div class="tags"><span class="chip">markdown</span><span class="chip">pdf</span><span class="chip">converter</span></div>
       <a href="https://github.com/microsoft/markitdown" target="_blank" rel="noopener">Repository →</a>
     </article>
+    <article class="card">
+      <h3><a href="servers/browser-use.html">Browser Use Server</a> <em>Developer Tools</em></h3>
+      <p>Autonomous browser agent that lets AI click, type and complete multi-step web tasks end-to-end — the most popular open browser-use MCP.</p>
+      <div class="tags"><span class="chip">browser</span><span class="chip">agent</span><span class="chip">automation</span></div>
+      <a href="https://github.com/browser-use/browser-use" target="_blank" rel="noopener">Repository →</a>
+    </article>
+    <article class="card">
+      <h3><a href="servers/github-official-mcp.html">GitHub Official MCP Server</a> <em>Developer Tools</em></h3>
+      <p>GitHub's official Model Context Protocol server — repositories, issues, pull requests, code search and more, straight from the platform.</p>
+      <div class="tags"><span class="chip">github</span><span class="chip">api</span><span class="chip">official</span></div>
+      <a href="https://github.com/github/github-mcp-server" target="_blank" rel="noopener">Repository →</a>
+    </article>
+    <article class="card">
+      <h3><a href="servers/stagehand.html">Stagehand Server</a> <em>Developer Tools</em></h3>
+      <p>Browserbase's AI-powered browser automation layer — natural-language web actions with built-in self-healing locators.</p>
+      <div class="tags"><span class="chip">browserbase</span><span class="chip">stagehand</span><span class="chip">automation</span></div>
+      <a href="https://github.com/browserbase/stagehand" target="_blank" rel="noopener">Repository →</a>
+    </article>
     </div>
     <div class="faq" id="faq">
       <h2>MCP Servers FAQ</h2>
@@ -813,7 +864,7 @@
       <details><summary>What is the Model Context Protocol (MCP)?</summary><p>MCP is an open standard, originally introduced by Anthropic, that standardizes how AI applications connect to external tools and data sources. Any MCP-compatible client can talk to any MCP server, so a server built once works across many AI apps.</p></details>
       <details><summary>How do I connect an MCP server to Claude Desktop?</summary><p>Install Node.js, open Claude Desktop and go to Settings → Developer → Edit Config, then add an entry under mcpServers in claude_desktop_config.json that points to the server's command. Every server page in this directory includes a step-by-step how-to and a config example.</p></details>
       <details><summary>Are the MCP servers in this directory free?</summary><p>All servers listed here are open source and free to use. Some require an API key from the underlying service (for example Brave Search or Stripe), and those services may have their own pricing.</p></details>
-      <details><summary>How many MCP servers are listed here?</summary><p>The directory currently curates 35+ open-source MCP servers across 8 categories — developer tools, productivity, data, web search, communication, finance, AI/agents and files — and new servers are added every week.</p></details>
+      <details><summary>How many MCP servers are listed here?</summary><p>The directory currently curates 38+ open-source MCP servers across 8 categories — developer tools, productivity, data, web search, communication, finance, AI/agents and files — and new servers are added every week.</p></details>
       <details><summary>How do I submit a new MCP server?</summary><p>Submissions are free during launch. Open a GitHub issue with your server name, one-line description, category and repository link using the submit button on the homepage.</p></details>
     </div>
     <div class="banner" id="submit" style="margin-top:20px">

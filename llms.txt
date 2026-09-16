@@ -1,6 +1,6 @@
 # MCP Servers Directory
 
-> A hand-curated catalog of Model Context Protocol (MCP) servers: what each server does, its category and its GitHub repository. Built to help developers and AI assistants find the right MCP server. Updated weekly. 35+ servers across 8 categories.
+> A hand-curated catalog of Model Context Protocol (MCP) servers: what each server does, its category and its GitHub repository. Built to help developers and AI assistants find the right MCP server. Updated weekly. 38+ servers across 8 categories.
 
 ## Pages
 
@@ -45,3 +45,6 @@
 - [Chrome DevTools Server](https://mcp.toolboxes.top/servers/chrome-devtools.html): Hand AI agents real Chrome DevTools: network inspection, DOM debugging, performance traces and console access.
 - [n8n Server](https://mcp.toolboxes.top/servers/n8n.html): Build, inspect and trigger n8n automation workflows from natural language inside AI conversations.
 - [MarkItDown Server](https://mcp.toolboxes.top/servers/markitdown.html): Microsoft's converter turns PDF, PowerPoint, Word, Excel and audio into clean Markdown your LLM can actually read.
+- [Browser Use Server](https://mcp.toolboxes.top/servers/browser-use.html): Autonomous browser agent that lets AI click, type and complete multi-step web tasks end-to-end — the most popular open browser-use MCP.
+- [GitHub Official MCP Server](https://mcp.toolboxes.top/servers/github-official-mcp.html): GitHub's official Model Context Protocol server — repositories, issues, pull requests, code search and more, straight from the platform.
+- [Stagehand Server](https://mcp.toolboxes.top/servers/stagehand.html): Browserbase's AI-powered browser automation layer — natural-language web actions with built-in self-healing locators.

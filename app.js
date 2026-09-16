@@ -34,7 +34,10 @@ const S = [
   ["Playwright Server","Microsoft's browser automation server — drive Chromium, Firefox and WebKit through fast accessibility-tree snapshots.","Developer Tools","playwright,browser,testing","microsoft/playwright-mcp"],
   ["Chrome DevTools Server","Hand AI agents real Chrome DevTools: network inspection, DOM debugging, performance traces and console access.","Developer Tools","chrome,devtools,debugging","ChromeDevTools/chrome-devtools-mcp"],
   ["n8n Server","Build, inspect and trigger n8n automation workflows from natural language inside AI conversations.","Productivity","n8n,automation,workflow","czlonkowski/n8n-mcp"],
-  ["MarkItDown Server","Microsoft's converter turns PDF, PowerPoint, Word, Excel and audio into clean Markdown your LLM can actually read.","Files & Docs","markdown,pdf,converter","microsoft/markitdown"]
+  ["MarkItDown Server","Microsoft's converter turns PDF, PowerPoint, Word, Excel and audio into clean Markdown your LLM can actually read.","Files & Docs","markdown,pdf,converter","microsoft/markitdown"],
+  ["Browser Use Server","Autonomous browser agent that lets AI click, type and complete multi-step web tasks end-to-end — the most popular open browser-use MCP.","Developer Tools","browser,agent,automation","browser-use/browser-use"],
+  ["GitHub Official MCP Server","GitHub's official Model Context Protocol server — repositories, issues, pull requests, code search and more, straight from the platform.","Developer Tools","github,api,official","github/github-mcp-server"],
+  ["Stagehand Server","Browserbase's AI-powered browser automation layer — natural-language web actions with built-in self-healing locators.","Developer Tools","browserbase,stagehand,automation","browserbase/stagehand"]
 ];
 const slugify = n => n.replace(/server/ig,"").replace(/&/g,"").replace(/[()]/g," ").trim().toLowerCase().replace(/\s+/g,"-");
 let active = "All", q = "";
