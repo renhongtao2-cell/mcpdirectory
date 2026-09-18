@@ -37,7 +37,8 @@ const S = [
   ["MarkItDown Server","Microsoft's converter turns PDF, PowerPoint, Word, Excel and audio into clean Markdown your LLM can actually read.","Files & Docs","markdown,pdf,converter","microsoft/markitdown"],
   ["Browser Use Server","Autonomous browser agent that lets AI click, type and complete multi-step web tasks end-to-end — the most popular open browser-use MCP.","Developer Tools","browser,agent,automation","browser-use/browser-use"],
   ["GitHub Official MCP Server","GitHub's official Model Context Protocol server — repositories, issues, pull requests, code search and more, straight from the platform.","Developer Tools","github,api,official","github/github-mcp-server"],
-  ["Stagehand Server","Browserbase's AI-powered browser automation layer — natural-language web actions with built-in self-healing locators.","Developer Tools","browserbase,stagehand,automation","browserbase/stagehand"]
+  ["Stagehand Server","Browserbase's AI-powered browser automation layer — natural-language web actions with built-in self-healing locators.","Developer Tools","browserbase,stagehand,automation","browserbase/stagehand"],
+  ["AI Tools Directory","Curated index of 221 AI tools across 21 industries — search by use case, department or pricing tier. Remote MCP server, no install, no auth.","AI & Agents","ai,directory,search,221-tools","renhongtao2-cell/ai-tools-mcp"]
 ];
 const slugify = n => n.replace(/server/ig,"").replace(/&/g,"").replace(/[()]/g," ").trim().toLowerCase().replace(/\s+/g,"-");
 let active = "All", q = "";
