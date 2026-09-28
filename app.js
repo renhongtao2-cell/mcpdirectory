@@ -38,7 +38,12 @@ const S = [
   ["Browser Use Server","Autonomous browser agent that lets AI click, type and complete multi-step web tasks end-to-end — the most popular open browser-use MCP.","Developer Tools","browser,agent,automation","browser-use/browser-use"],
   ["GitHub Official MCP Server","GitHub's official Model Context Protocol server — repositories, issues, pull requests, code search and more, straight from the platform.","Developer Tools","github,api,official","github/github-mcp-server"],
   ["Stagehand Server","Browserbase's AI-powered browser automation layer — natural-language web actions with built-in self-healing locators.","Developer Tools","browserbase,stagehand,automation","browserbase/stagehand"],
-  ["AI Tools Directory","Curated index of 221 AI tools across 21 industries — search by use case, department or pricing tier. Remote MCP server, no install, no auth.","AI & Agents","ai,directory,search,221-tools","renhongtao2-cell/ai-tools-mcp"]
+  ["AI Tools Directory","Curated index of 221 AI tools across 21 industries — search by use case, department or pricing tier. Remote MCP server, no install, no auth.","AI & Agents","ai,directory,search,221-tools","renhongtao2-cell/ai-tools-mcp"],
+  ["Grafana Server","Grafana's official MCP server — query dashboards, datasources, alerts and incidents in natural language for observability on demand.","Developer Tools","grafana,monitoring,observability","grafana/mcp-grafana"],
+  ["Tavily Search Server","Production-ready search, extract, map and crawl for AI agents — real-time web results built for LLM consumption.","Web & Search","tavily,search,crawl","tavily-ai/tavily-mcp"],
+  ["Kubernetes Server","Model Context Protocol server for Kubernetes and OpenShift — inspect clusters, pods and logs without leaving your assistant.","Developer Tools","kubernetes,k8s,openshift","containers/kubernetes-mcp-server"],
+  ["Qdrant Server","Official Qdrant vector database MCP server — semantic search, embeddings and memory for retrieval-augmented agents.","AI & Agents","qdrant,vector,embeddings","qdrant/mcp-server-qdrant"],
+  ["Neon Server","Official Neon serverless Postgres MCP server — let your AI provision branches, run SQL and manage schemas safely.","Data & Databases","neon,postgres,database","neondatabase/mcp-server-neon"]
 ];
 const slugify = n => n.replace(/server/ig,"").replace(/&/g,"").replace(/[()]/g," ").trim().toLowerCase().replace(/\s+/g,"-");
 let active = "All", q = "";

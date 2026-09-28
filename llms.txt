@@ -1,6 +1,6 @@
 # MCP Servers Directory
 
-> A hand-curated catalog of Model Context Protocol (MCP) servers: what each server does, its category and its GitHub repository. Built to help developers and AI assistants find the right MCP server. Updated weekly. 38+ servers across 8 categories.
+> A hand-curated catalog of Model Context Protocol (MCP) servers: what each server does, its category and its GitHub repository. Built to help developers and AI assistants find the right MCP server. Updated weekly. 44+ servers across 8 categories.
 
 ## Pages
 
@@ -48,3 +48,9 @@
 - [Browser Use Server](https://mcp.toolboxes.top/servers/browser-use.html): Autonomous browser agent that lets AI click, type and complete multi-step web tasks end-to-end — the most popular open browser-use MCP.
 - [GitHub Official MCP Server](https://mcp.toolboxes.top/servers/github-official-mcp.html): GitHub's official Model Context Protocol server — repositories, issues, pull requests, code search and more, straight from the platform.
 - [Stagehand Server](https://mcp.toolboxes.top/servers/stagehand.html): Browserbase's AI-powered browser automation layer — natural-language web actions with built-in self-healing locators.
+- [AI Tools Directory](https://mcp.toolboxes.top/servers/ai-tools-directory.html): Curated index of 221 AI tools across 21 industries — search by use case, department or pricing tier. Remote MCP server, no install, no auth.
+- [Grafana Server](https://mcp.toolboxes.top/servers/grafana.html): Grafana's official MCP server — query dashboards, datasources, alerts and incidents in natural language for observability on demand.
+- [Tavily Search Server](https://mcp.toolboxes.top/servers/tavily-search.html): Production-ready search, extract, map and crawl for AI agents — real-time web results built for LLM consumption.
+- [Kubernetes Server](https://mcp.toolboxes.top/servers/kubernetes.html): Model Context Protocol server for Kubernetes and OpenShift — inspect clusters, pods and logs without leaving your assistant.
+- [Qdrant Server](https://mcp.toolboxes.top/servers/qdrant.html): Official Qdrant vector database MCP server — semantic search, embeddings and memory for retrieval-augmented agents.
+- [Neon Server](https://mcp.toolboxes.top/servers/neon.html): Official Neon serverless Postgres MCP server — let your AI provision branches, run SQL and manage schemas safely.
